@@ -32,3 +32,13 @@ Do not forget to make the script file executable:
 ```console
 $ chmod +x abc.sh
 ```
+
+## Problem 2
+List down the files and the corresponding line in which a particular phrase exists in a given directory
+
+### Solution
+
+Run:
+```console
+$ grep -rin "Ankush" /Users/ankush.g/Desktop/test/test
+```
